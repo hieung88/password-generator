@@ -32,7 +32,7 @@ numCharacter = prompt(
 while (numCharacter < 8 || numCharacter > 128 || isNaN(numCharacter)) {
   console.log(numCharacter+' is not valid input');
   alert('Please pick a number between 8 and 128');
-  numCharacter = prompt('What is the length of your desired password ( 8 < password < 128)');
+  numCharacter = prompt('How many characters do you want in your password? Please choose between 8 and 128 characters.');
 }
 
 
