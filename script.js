@@ -27,7 +27,7 @@ numCharacter = prompt(
 )
 
 
-// 2. Check input if it is number and betw
+// 2. Check input if it is number and at least 8 characters and no more than 128 characters
 
 while (numCharacter < 8 || numCharacter > 128 || isNaN(numCharacter)) {
   console.log(numCharacter+' is not valid input');
